@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>todo list</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body onLoad="populateList()">
+
+<h1>todo list</h1>
+    <label for="add todo">add todo item</label>
+    <input type="text" id="todoItem">
+    <button id="addTodo" onclick="getListItem()">add</button>
+  <h2>todo list</h2>
+  <div id="todoDiv">
+    <ol id="todoList" style="border: 1px solid black;">
+    </ol>
+  </div>
+
+
+<footer>
+    <p>click on an item when it is completed.<br>click it again to reset the item if it needs to be done again</p>
+</footer>
+
+  <script src="app.js"></script>
+</body>
+</html>

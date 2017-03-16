@@ -1,0 +1,23 @@
+{
+  "name": "todo-list-project",
+  "version": "1.0.0",
+  "description": "Makes a todo list with some limited functionality - add items, strikethrough to mark as complete (toggle), delete items, keep items in localstorage to retrieve later.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "./node_modules/.bin/http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-standard": "^7.0.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^2.1.1",
+    "http-server": "^0.9.0"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
